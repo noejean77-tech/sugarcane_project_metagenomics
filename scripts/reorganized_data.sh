@@ -2,10 +2,10 @@
 
 # Dossier source et destination
 
-SOURCE_DIR="/home/noe/cibig_noe/project_stage_tutore/raw_data/Metagenomics/sugarecane_demux"
-Dest_dir="/home/noe/cibig_noe/project_stage_tutore/raw_data"
+SOURCE_DIR="/scratch/noe/sugarcane_projet/raw_data/Metagenomics/sugarecane_demux"
+Dest_dir="/scratch/noe/sugarcane_projet/raw_data"
 
-# Créer le dossier de destination s'il n'existe pas
+# Créer le dossier de destination pour chaque barcodes
 mkdir -p "$Dest_dir"
 
 # Boucle sur les barcodes (75 à 85)
