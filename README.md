@@ -2,9 +2,8 @@
 ## Bioinformatics strategies for the project 
 ## Overview 
 
-```
 This README file provides comprehensive information on a practical training course in bioinformatics and genomics, aligned with the International Certificate in Bioinformatics and Genomics (CIBiG). The course takes place in Abidjan, Côte d’Ivoire, as part of the WAVE initiative (Viral Epidemiology in West and Central Africa). This course aims to develop practical skills in genomic data analysis and bioinformatics tools, thereby meeting the growing need for technical expertise in the fields of public health and research.
-```
+
 ## Project Details 
 
 
@@ -16,11 +15,11 @@ This README file provides comprehensive information on a practical training cour
 
 ### Objectives 
 
-```
+
 This project aims to train participants in bioinformatics techniques and genomic data analysis, particularly in the field of viral epidemiology. The training combines practical exercises, team projects and discussion sessions with trainers to develop the necessary technical skills.
-```
+
 ### Expected outcomes 
-```
+
 Participants will gain:
 
 - Proficiency in bioinformatics tools and software.
