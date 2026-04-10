@@ -1,21 +1,25 @@
 #!/bin/bash
-
+### set the job name
 #SBATCH --job-name=Minimap2...kraken
+### Set the number of CPUs to use 
 #SBATCH --cpus-per-task=8
+###Total RAM allocated
 #SBATCH --mem=40G
-#SBATCH --mail-type ALL
-#SBATCH --mail-user noejean77@gmail.com
+### Set the partition to use
 #SBATCH --partition=normal
-#SBATCH --output=/home/noe/cibig_noe/project_stage_tutore/logs/Minimap2...kraken_%j.out
-#SBATCH --error=/home/noe/cibig_noe/project_stage_tutore/logs/Minimap2...kraken_%j.err
+###Specify the node on which the job should run
+#SBATCH --nodelist=node02
+### error file and file output
+#SBATCH --output=/scratch/noe/sugarcane_projet/logs/Minimap2...kraken_%j.out 
+#SBATCH --error=/scratch/noe/sugarcane_projet/logs/Minimap2...kraken_%j.err
 ##########################################
 
 # defissons les variables
-REF="/home/noe/cibig_noe/project_stage_tutore/banks/reference_cat_sugarcane/genome_ref.fna"
-RAW_DATA="/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq"
-CLEANING_DIR="/home/noe/cibig_noe/project_stage_tutore/results/2_Mapping"
-DB_KRAKEN="/home/noe/cibig_noe/project_stage_tutore/banks/db_kraken"
-OUT_KRAKEN="/home/noe/cibig_noe/project_stage_tutore/results/3_Kraken_read_unmapped"
+REF="/scratch/noe/sugarcane_projet/banks/reference_cat_sugarcane/genome_ref.fna"
+RAW_DATA="/scratch/noe/sugarcane_projet/raw_data/merged_fastq"
+CLEANING_DIR="/scratch/noe/sugarcane_projet/results/2_mapping"
+DB_KRAKEN="/scratch/noe/sugarcane_projet/banks/db_kraken"
+OUT_KRAKEN="/scratch/noe/sugarcane_projet/results/3_kraken_read_unmapped"
 
 # telechargeons les modules
 module load  bioinfo-wave
