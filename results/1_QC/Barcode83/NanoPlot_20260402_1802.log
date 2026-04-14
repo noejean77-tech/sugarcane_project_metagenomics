@@ -1,0 +1,25 @@
+2026-04-02 18:02:14,618 NanoPlot 1.41.3 started with arguments Namespace(threads=1, verbose=False, store=False, raw=False, huge=False, outdir='/home/noe/cibig_noe/project_stage_tutore/results/1_QC/Barcode83', no_static=False, prefix='', tsv_stats=False, info_in_report=False, maxlength=None, minlength=None, drop_outliers=False, downsample=None, loglength=False, percentqual=False, alength=False, minqual=None, runtime_until=None, readtype='1D', barcoded=False, no_supplementary=False, color='#4CB391', colormap='Greens', format=['png'], plots=['kde', 'dot'], legacy=None, listcolors=False, listcolormaps=False, no_N50=False, N50=False, title=None, font_scale=1, dpi=100, hide_stats=False, fastq=['/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq/Barcode83.fastq'], fasta=None, fastq_rich=None, fastq_minimal=None, summary=None, bam=None, ubam=None, cram=None, pickle=None, feather=None, path='/home/noe/cibig_noe/project_stage_tutore/results/1_QC/Barcode83/')
+2026-04-02 18:02:14,619 Python version is: 3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]
+2026-04-02 18:02:14,633 Nanoget: Starting to collect statistics from plain fastq file.
+2026-04-02 18:02:18,801 Reduced DataFrame memory usage from 0.792755126953125Mb to 0.792755126953125Mb
+2026-04-02 18:02:18,813 Nanoget: Gathered all metrics of 51946 reads
+2026-04-02 18:02:18,836 Calculated statistics
+2026-04-02 18:02:18,837 Using sequenced read lengths for plotting.
+2026-04-02 18:02:18,839 Removed 29 artefactual reads with very short length and very high quality.
+2026-04-02 18:02:18,853 Calculated statistics
+2026-04-02 18:02:18,854 NanoPlot:  Valid color #4CB391.
+2026-04-02 18:02:18,854 NanoPlot:  Valid colormap Greens.
+2026-04-02 18:02:18,857 NanoPlot:  Creating length plots for Read length.
+2026-04-02 18:02:18,857 NanoPlot:  Using 51917 reads maximum of 30392bp.
+2026-04-02 18:02:20,518 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/Barcode83/WeightedHistogramReadlength  as png (or png for --legacy)
+2026-04-02 18:02:21,701 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/Barcode83/WeightedLogTransformed_HistogramReadlength  as png (or png for --legacy)
+2026-04-02 18:02:22,884 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/Barcode83/Non_weightedHistogramReadlength  as png (or png for --legacy)
+2026-04-02 18:02:24,037 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/Barcode83/Non_weightedLogTransformed_HistogramReadlength  as png (or png for --legacy)
+2026-04-02 18:02:25,787 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/Barcode83/Yield_By_Length  as png (or png for --legacy)
+2026-04-02 18:02:25,789 Created length plots
+2026-04-02 18:02:25,791 NanoPlot: Creating Read lengths vs Average read quality plots using 51917 reads.
+2026-04-02 18:02:27,405 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/Barcode83/LengthvsQualityScatterPlot_dot  as png (or png for --legacy)
+2026-04-02 18:02:29,566 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/Barcode83/LengthvsQualityScatterPlot_kde  as png (or png for --legacy)
+2026-04-02 18:02:29,567 Created LengthvsQual plot
+2026-04-02 18:02:29,568 Writing html report.
+2026-04-02 18:02:29,595 Finished!

@@ -1,0 +1,45 @@
+2026-04-02 18:03:11,969 NanoComp 1.23.1 started with arguments Namespace(threads=1, outdir='/home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC', prefix='', verbose=False, raw=False, store=False, tsv_stats=False, no_static=False, readtype='1D', maxlength=None, minlength=None, barcoded=False, split_runs=False, format=['png'], names=['Barcode75', 'Barcode76', 'Barcode77', 'Barcode78', 'Barcode79', 'Barcode80', 'Barcode81', 'Barcode82', 'Barcode83', 'Barcode84', 'Barcode85'], colors=None, plot='violin', title=None, dpi=100, fasta=None, fastq=['/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq/Barcode75.fastq', '/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq/Barcode76.fastq', '/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq/Barcode77.fastq', '/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq/Barcode78.fastq', '/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq/Barcode79.fastq', '/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq/Barcode80.fastq', '/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq/Barcode81.fastq', '/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq/Barcode82.fastq', '/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq/Barcode83.fastq', '/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq/Barcode84.fastq', '/home/noe/cibig_noe/project_stage_tutore/raw_data/merged_fastq/Barcode85.fastq'], fastq_rich=None, summary=None, bam=None, ubam=None, cram=None, pickle=None, feather=None, path='/home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/')
+2026-04-02 18:03:11,969 Python version is: 3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0]
+2026-04-02 18:03:11,984 Nanoget: Starting to collect statistics from plain fastq file.
+2026-04-02 18:03:15,029 Reduced DataFrame memory usage from 0.5070037841796875Mb to 0.5070037841796875Mb
+2026-04-02 18:03:15,032 Nanoget: Starting to collect statistics from plain fastq file.
+2026-04-02 18:03:16,971 Reduced DataFrame memory usage from 0.2640380859375Mb to 0.2640380859375Mb
+2026-04-02 18:03:16,973 Nanoget: Starting to collect statistics from plain fastq file.
+2026-04-02 18:03:19,817 Reduced DataFrame memory usage from 0.418426513671875Mb to 0.418426513671875Mb
+2026-04-02 18:03:19,818 Nanoget: Starting to collect statistics from plain fastq file.
+2026-04-02 18:03:22,971 Reduced DataFrame memory usage from 0.5291748046875Mb to 0.5291748046875Mb
+2026-04-02 18:03:22,973 Nanoget: Starting to collect statistics from plain fastq file.
+2026-04-02 18:03:24,752 Reduced DataFrame memory usage from 0.268218994140625Mb to 0.268218994140625Mb
+2026-04-02 18:03:24,753 Nanoget: Starting to collect statistics from plain fastq file.
+2026-04-02 18:03:27,311 Reduced DataFrame memory usage from 0.4410552978515625Mb to 0.4410552978515625Mb
+2026-04-02 18:03:27,312 Nanoget: Starting to collect statistics from plain fastq file.
+2026-04-02 18:03:30,045 Reduced DataFrame memory usage from 0.330474853515625Mb to 0.330474853515625Mb
+2026-04-02 18:03:30,047 Nanoget: Starting to collect statistics from plain fastq file.
+2026-04-02 18:03:33,217 Reduced DataFrame memory usage from 0.6292572021484375Mb to 0.6292572021484375Mb
+2026-04-02 18:03:33,219 Nanoget: Starting to collect statistics from plain fastq file.
+2026-04-02 18:03:37,451 Reduced DataFrame memory usage from 0.792755126953125Mb to 0.792755126953125Mb
+2026-04-02 18:03:37,452 Nanoget: Starting to collect statistics from plain fastq file.
+2026-04-02 18:03:41,056 Reduced DataFrame memory usage from 0.6396026611328125Mb to 0.6396026611328125Mb
+2026-04-02 18:03:41,057 Nanoget: Starting to collect statistics from plain fastq file.
+2026-04-02 18:03:43,717 Reduced DataFrame memory usage from 0.5016632080078125Mb to 0.5016632080078125Mb
+2026-04-02 18:03:43,741 Nanoget: Gathered all metrics of 348673 reads
+2026-04-02 18:03:43,742 Using sequenced read lengths for plotting.
+2026-04-02 18:03:43,759 Removed 224 artefactual reads with very short length and very high quality.
+2026-04-02 18:03:44,295 NanoComp: Creating barplots for number of reads and total throughput.
+2026-04-02 18:03:54,016 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/NanoComp_number_of_reads  as png (or png for --legacy)
+2026-04-02 18:03:55,220 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/NanoComp_total_throughput  as png (or png for --legacy)
+2026-04-02 18:03:56,459 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/NanoComp_N50  as png (or png for --legacy)
+2026-04-02 18:03:56,465 NanoComp: Creating violin plot for lengths.
+2026-04-02 18:03:58,708 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/NanoComp_lengths_violin  as png (or png for --legacy)
+2026-04-02 18:03:58,712 NanoComp: Creating violin plot for log length.
+2026-04-02 18:04:01,129 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/NanoComp_log_length_violin  as png (or png for --legacy)
+2026-04-02 18:04:01,131 NanoComp: Creating violin plot for quals.
+2026-04-02 18:04:03,598 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/NanoComp_quals_violin  as png (or png for --legacy)
+2026-04-02 18:04:04,975 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/NanoComp_OverlayHistogram  as png (or png for --legacy)
+2026-04-02 18:04:06,360 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/NanoComp_OverlayHistogram_Normalized  as png (or png for --legacy)
+2026-04-02 18:04:07,793 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/NanoComp_OverlayHistogram_Weighted  as png (or png for --legacy)
+2026-04-02 18:04:09,156 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/NanoComp_OverlayLogHistogram  as png (or png for --legacy)
+2026-04-02 18:04:18,604 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/NanoComp_OverlayLogHistogram_Normalized  as png (or png for --legacy)
+2026-04-02 18:04:20,044 Saved /home/noe/cibig_noe/project_stage_tutore/results/1_QC/all_samples_QC/NanoComp_OverlayLogHistogram_Weighted  as png (or png for --legacy)
+2026-04-02 18:04:20,046 Writing html report.
+2026-04-02 18:04:20,150 Succesfully processed all input.

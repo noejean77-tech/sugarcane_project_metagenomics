@@ -1,0 +1,31 @@
+digraph {
+nodesep = 0.5;
+node [shape = circle, label = "", height = 0.3];
+"0" [style = "filled", fillcolor = "grey"];
+"1" [style = "filled", fillcolor = "grey"];
+"2" -> "2" [label = "id 1\l0.5k 157x", color = "deepskyblue1" , penwidth = 3] ;
+"2" -> "2" [label = "id -1\l0.5k 157x", color = "deepskyblue1" , penwidth = 3] ;
+"2" -> "2" [label = "id 2\l0.8k 681x", color = "deepskyblue1" , penwidth = 3] ;
+"2" -> "2" [label = "id -2\l0.8k 681x", color = "deepskyblue1" , penwidth = 3] ;
+"2" -> "2" [label = "id 3\l0.7k 373x", color = "deepskyblue1" , penwidth = 3] ;
+"2" -> "2" [label = "id -3\l0.7k 373x", color = "deepskyblue1" , penwidth = 3] ;
+"2" -> "2" [label = "id 4\l1.0k 0x", color = "deepskyblue1" , penwidth = 3] ;
+"2" -> "2" [label = "id -4\l1.0k 0x", color = "deepskyblue1" , penwidth = 3] ;
+"2" -> "2" [label = "id 5\l0.7k 37506x", color = "deepskyblue1" , penwidth = 3, dir = both] ;
+"2" -> "2" [label = "id 6\l0.8k 86x", color = "deepskyblue1" , penwidth = 3] ;
+"2" -> "2" [label = "id -6\l0.8k 86x", color = "deepskyblue1" , penwidth = 3] ;
+"0" -> "0" [label = "id 10\l0.7k 32x", color = "blue" , penwidth = 3] ;
+"1" -> "1" [label = "id -10\l0.7k 32x", color = "blue" , penwidth = 3] ;
+"0" -> "0" [label = "id 11\l0.6k 79x", color = "blue" , penwidth = 3] ;
+"1" -> "1" [label = "id -11\l0.6k 79x", color = "blue" , penwidth = 3] ;
+"0" -> "1" [label = "id 12\l2.0k 5x", color = "blue" , penwidth = 3] ;
+"0" -> "1" [label = "id -12\l2.0k 5x", color = "blue" , penwidth = 3] ;
+"3" -> "4" [label = "id 14\l1.3k 4x", color = "red" , penwidth = 3] ;
+"5" -> "6" [label = "id -14\l1.3k 4x", color = "red" , penwidth = 3] ;
+"6" -> "5" [label = "id 15\l1.6k 1x", color = "red" , penwidth = 3] ;
+"4" -> "3" [label = "id -15\l1.6k 1x", color = "red" , penwidth = 3] ;
+"2" -> "2" [label = "id 17\l4.3k 38x", color = "deepskyblue1" , penwidth = 3] ;
+"2" -> "2" [label = "id -17\l4.3k 38x", color = "deepskyblue1" , penwidth = 3] ;
+"4" -> "3" [label = "id 18\l1.5k 4x", color = "red" , penwidth = 3] ;
+"6" -> "5" [label = "id -18\l1.5k 4x", color = "red" , penwidth = 3] ;
+}
