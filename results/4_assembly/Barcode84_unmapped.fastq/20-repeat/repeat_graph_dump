@@ -1,0 +1,38 @@
+Edge	4	1	1	1	0	0	63	-1
+	Sequence	+edge_3_0_+disjointig_3_296_1094 798 3 7929 296 1094
+	Sequence	+edge_3_1_+disjointig_3_1094_1918 824 3 7929 1094 1918
+	Sequence	+edge_3_2_+disjointig_3_1918_2703 785 3 7929 1918 2703
+	Sequence	+edge_3_3_+disjointig_3_2703_3482 779 3 7929 2703 3482
+	Sequence	+edge_3_4_-disjointig_3_3421_4446 1025 -3 7929 3421 4446
+	Sequence	+edge_3_5_-disjointig_3_2731_3421 690 -3 7929 2731 3421
+	Sequence	+edge_3_6_-disjointig_3_1904_2731 827 -3 7929 1904 2731
+	Sequence	+edge_3_7_-disjointig_3_814_1904 1090 -3 7929 814 1904
+	Sequence	+edge_3_8_-disjointig_3_2_814 812 -3 7929 2 814
+Edge	5	5	5	1	0	0	63	-1
+	Sequence	-edge_3_0_+disjointig_3_296_1094 798 -3 7929 6834 7632
+	Sequence	-edge_3_1_+disjointig_3_1094_1918 824 -3 7929 6010 6834
+	Sequence	-edge_3_2_+disjointig_3_1918_2703 785 -3 7929 5225 6010
+	Sequence	-edge_3_3_+disjointig_3_2703_3482 779 -3 7929 4446 5225
+	Sequence	-edge_3_4_-disjointig_3_3421_4446 1025 3 7929 3482 4507
+	Sequence	-edge_3_5_-disjointig_3_2731_3421 690 3 7929 4507 5197
+	Sequence	-edge_3_6_-disjointig_3_1904_2731 827 3 7929 5197 6024
+	Sequence	-edge_3_7_-disjointig_3_814_1904 1090 3 7929 6024 7114
+	Sequence	-edge_3_8_-disjointig_3_2_814 812 3 7929 7114 7926
+Edge	6	6	6	1	0	0	83	-1
+	Sequence	+edge_4_0_+disjointig_5_481_1929 1448 4 6024 481 1929
+	Sequence	+edge_4_1_+disjointig_5_1929_3241 1312 4 6024 1929 3241
+	Sequence	+edge_4_2_+disjointig_5_3241_4671 1430 4 6024 3241 4671
+Edge	7	7	7	1	0	0	83	-1
+	Sequence	-edge_4_0_+disjointig_5_481_1929 1448 -4 6024 4094 5542
+	Sequence	-edge_4_1_+disjointig_5_1929_3241 1312 -4 6024 2782 4094
+	Sequence	-edge_4_2_+disjointig_5_3241_4671 1430 -4 6024 1352 2782
+Edge	8	0	8	1	0	0	19	-1
+	Sequence	+edge_5_0_+disjointig_5_4671_6023 1352 4 6024 4671 6023
+Edge	9	9	4	1	0	0	19	-1
+	Sequence	-edge_5_0_+disjointig_5_4671_6023 1352 -4 6024 0 1352
+Edge	10	3	3	1	0	0	6	-1
+	Sequence	+edge_6_0_+disjointig_8_0_2742 2742 5 5197 0 2742
+	Sequence	+edge_6_1_+disjointig_8_2742_5189 2447 5 5197 2742 5189
+Edge	11	2	2	1	0	0	6	-1
+	Sequence	-edge_6_0_+disjointig_8_0_2742 2742 -5 5197 2454 5196
+	Sequence	-edge_6_1_+disjointig_8_2742_5189 2447 -5 5197 7 2454

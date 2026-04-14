@@ -1,0 +1,3 @@
+#seq_name	length	coverage	circular	repeat	mult	telomere	alt_group	graph_path
+contig_1	689	2100	N	Y	1	none	*	1
+contig_2	903	10671	N	Y	2	none	*	2

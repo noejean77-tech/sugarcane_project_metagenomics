@@ -1,0 +1,12 @@
+[samfaipath] build FASTA index...
+[M::mm_idx_gen::0.002*2.30] collected minimizers
+[M::mm_idx_gen::0.003*2.75] sorted minimizers
+[M::main::0.003*2.74] loaded/built the index for 3 target sequence(s)
+[M::mm_mapopt_update::0.004*2.66] mid_occ = 314
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 3
+[M::mm_idx_stat::0.004*2.61] distinct minimizers: 1527 (37.07% are singletons); average occurrences: 7.092; average spacing: 5.741; total length: 62172
+[M::worker_pipeline::140.611*3.98] mapped 7667 sequences
+[M::main] Version: 2.24-r1155-dirty
+[M::main] CMD: flye-minimap2 -x map-ont -t 4 -a -p 0.5 -N 10 --sam-hit-only -L -K 1G -z 1000 -Q --secondary-seq -I 64G /scratch/noe/sugarcane_projet/results/4_assembly/Barcode80_unmapped.fastq/00-assembly/draft_assembly.fasta /scratch/noe/sugarcane_projet/results/2_mapping/Barcode80_unmapped.fastq
+[M::main] Real time: 140.612 sec; CPU: 558.969 sec; Peak RSS: 0.731 GB
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
