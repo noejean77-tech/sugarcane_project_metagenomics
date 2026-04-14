@@ -19,14 +19,13 @@ This README file provides comprehensive information on a practical training cour
 This project aims to train participants in bioinformatics techniques and genomic data analysis, particularly in the field of viral epidemiology. The training combines practical exercises, team projects and discussion sessions with trainers to develop the necessary technical skills.
 
 ### Expected outcomes 
-
 Participants will gain:
 
 - Proficiency in bioinformatics tools and software.
 - Skills in genomic data analysis.
 - Understanding of the role of bioinformatics.
 - Collaboration experience with professionals in the field.
-```
+
 ### Contact Information 
 **Dr NAME Pakyendou Estel: [pakyendou.name@gmail.com]()**
 
