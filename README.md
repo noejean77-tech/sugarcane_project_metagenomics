@@ -69,7 +69,7 @@ cd raw_data
 cp -r  Metagenomics /scratch/noe/sugarcane_projet/raw_data/
 
 - Reorganizing files (fastq) by samples (barcodes {75...85}) using this bash script
-
+```
 #!/bin/bash
 
 # Source and destination folder
@@ -98,12 +98,13 @@ for b in {75..85}; do
         cp "$file" "$TARGET_DIR/${BASE_NAME}"
     done
 done
-
+```
 
 - Merging of the FASTQ files by sample because we have 3 FASTQ files per sample (barcodes)
 
 cd raw_data # navigate within the folder
 
+```
 #!/bin/bash
 
 # Folder where the merged files will be stored
@@ -122,17 +123,17 @@ for b in {75..85}; do
         echo "Attention : the directory barcode${b} is not found."
     fi
 done
-
+```
 bash merged.sh
 
 
 - Let's move the merged files manually into a new folder, a subfolder of raw_data.
 
 mkdir raw_data/merged_fastq
-mv barcode75_merged.fastq ../merged_fastq/Barcodes75.fastq # puis pareille avec les autres fichiers
+mv barcode75_merged.fastq ../merged_fastq/Barcodes75.fastq # Then the same with the others 
 
+## QC of samples 
 
-### PRACTICE II -  Control quality of samples
 - Let's create a directory called 1_QC in **/results** in which the quality control results will be stored.
 
 mkdir /results/1_QC
@@ -142,6 +143,7 @@ nano QC.sh
 
 #!/bin/bash
 
+```
 # Let's define of variables
 
 RAW_DATA="/scratch/noe/sugarcane_projet/raw_data/merged_fastq"
@@ -171,5 +173,5 @@ echo " QC of 11 samples"
 NanoComp -t "$SLURM_CPUS_PER_TASK" --fastq "$RAW_DATA"/*.fastq -o "$DIR_QC/all_samples_QC"
 
 echo "End analysis !"
-
+```
 bash QC.sh
