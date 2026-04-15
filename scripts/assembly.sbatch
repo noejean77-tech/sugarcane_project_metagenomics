@@ -1,29 +1,34 @@
 #!/bin/bash
 
+### Set the job name
 #SBATCH --job-name=Flye
-#SBATCH --cpus-per-task=4
-#SBATCH --mail-user noejean77@gmail.com
+
+### Set the number of CPUs to use 
+#SBATCH --cpus-per-task=12
+
+### Set the partition to use
 #SBATCH --partition=normal
-#SBATCH --output=/home/noe/cibig_noe/project_stage_tutore/logs/Flye_%j.out
-#SBATCH --error=/home/noe/cibig_noe/project_stage_tutore/logs/Flye_%j.err
+
+
+### error file and file output
+#SBATCH --output=/scratch/noe/sugarcane_projet/logs/Flye_%j.out
+#SBATCH --error=/scratch/noe/sugarcane_projet/logs/Flye_%j.err
 ##########################################
 
-# definissons les variables
-DATA="/home/noe/cibig_noe/project_stage_tutore/results/2_cleaning"
-OUTDIR="/home/noe/cibig_noe/project_stage_tutore/results/4_assemblage"
+# Let's define the variables 
+DATA="/scratch/noe/sugarcane_projet/results/2_mapping"
+OUTDIR="/scratch/noe/sugarcane_projet/results/4_assembly"
 
 mkdir -p "$OUTDIR"
 
-# telechargeons les modules
+# Download the module flye
 module load bioinfo-wave
-module load flye/2.9.6-b1802
+module load flye/2.9.6
 
-# definissons la commande singularity Flye
-FLYE_CMD="singularity run /usr/local/bioinfo/containers/flye-2.9.6.sif"
 
 for file in "$DATA"/*.fastq; do
   names=$(basename "$file" .unmapped.fastq)
-  echo "Assemblage de $names"
-  # effectuons l'assemblage
-  $FLYE_CMD --nano-raw "$file" --threads "$SLURM_CPUS_PER_TASK" --out-dir "$OUTDIR/$names"
+  echo "Assembly of $names"
+  # let's start the assembly 
+  flye --nano-raw "$file" --threads "$SLURM_CPUS_PER_TASK" --out-dir "$OUTDIR/$names"
 done

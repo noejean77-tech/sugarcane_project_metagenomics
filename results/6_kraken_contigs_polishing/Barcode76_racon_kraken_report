@@ -1,0 +1,65 @@
+ 57.14	4	4	U	0	unclassified
+ 42.86	3	0	R	1	root
+ 42.86	3	0	R1	131567	  cellular organisms
+ 42.86	3	0	R2	2759	    Eukaryota
+ 28.57	2	0	K	33090	      Viridiplantae
+ 28.57	2	0	P	35493	        Streptophyta
+ 28.57	2	0	P1	131221	          Streptophytina
+ 28.57	2	0	P2	3193	            Embryophyta
+ 28.57	2	0	P3	58023	              Tracheophyta
+ 28.57	2	0	P4	78536	                Euphyllophyta
+ 28.57	2	0	P5	58024	                  Spermatophyta
+ 28.57	2	0	C	3398	                    Magnoliopsida
+ 28.57	2	0	C1	1437183	                      Mesangiospermae
+ 14.29	1	0	C2	4447	                        Liliopsida
+ 14.29	1	0	C3	1437197	                          Petrosaviidae
+ 14.29	1	0	C4	4734	                            commelinids
+ 14.29	1	0	O	38820	                              Poales
+ 14.29	1	0	F	4479	                                Poaceae
+ 14.29	1	0	F1	147370	                                  PACMAD clade
+ 14.29	1	0	F2	147369	                                    Panicoideae
+ 14.29	1	0	F3	1648033	                                      Andropogonodae
+ 14.29	1	0	F4	147429	                                        Andropogoneae
+ 14.29	1	0	F5	1648026	                                          Saccharinae
+ 14.29	1	0	G	62336	                                            Miscanthus
+ 14.29	1	1	S	154761	                                              Miscanthus floridulus
+ 14.29	1	0	C2	71240	                        eudicotyledons
+ 14.29	1	0	C3	91827	                          Gunneridae
+ 14.29	1	0	C4	1437201	                            Pentapetalae
+ 14.29	1	0	C5	71275	                              rosids
+ 14.29	1	0	C6	91835	                                fabids
+ 14.29	1	0	O	3646	                                  Malpighiales
+ 14.29	1	0	F	3977	                                    Euphorbiaceae
+ 14.29	1	0	F1	235631	                                      Crotonoideae
+ 14.29	1	0	F2	235883	                                        Manihoteae
+ 14.29	1	0	G	3982	                                          Manihot
+ 14.29	1	1	S	3983	                                            Manihot esculenta
+ 14.29	1	0	R3	33154	      Opisthokonta
+ 14.29	1	0	K	33208	        Metazoa
+ 14.29	1	0	K1	6072	          Eumetazoa
+ 14.29	1	0	K2	33213	            Bilateria
+ 14.29	1	0	K3	33511	              Deuterostomia
+ 14.29	1	0	P	7711	                Chordata
+ 14.29	1	0	P1	89593	                  Craniata
+ 14.29	1	0	P2	7742	                    Vertebrata
+ 14.29	1	0	P3	7776	                      Gnathostomata
+ 14.29	1	0	P4	117570	                        Teleostomi
+ 14.29	1	0	P5	117571	                          Euteleostomi
+ 14.29	1	0	P6	8287	                            Sarcopterygii
+ 14.29	1	0	P7	1338369	                              Dipnotetrapodomorpha
+ 14.29	1	0	P8	32523	                                Tetrapoda
+ 14.29	1	0	P9	32524	                                  Amniota
+ 14.29	1	0	C	40674	                                    Mammalia
+ 14.29	1	0	C1	32525	                                      Theria
+ 14.29	1	0	C2	9347	                                        Eutheria
+ 14.29	1	0	C3	1437010	                                          Boreoeutheria
+ 14.29	1	0	C4	314146	                                            Euarchontoglires
+ 14.29	1	0	O	9443	                                              Primates
+ 14.29	1	0	O1	376913	                                                Haplorrhini
+ 14.29	1	0	O2	314293	                                                  Simiiformes
+ 14.29	1	0	O3	9526	                                                    Catarrhini
+ 14.29	1	0	O4	314295	                                                      Hominoidea
+ 14.29	1	0	F	9604	                                                        Hominidae
+ 14.29	1	0	F1	207598	                                                          Homininae
+ 14.29	1	0	G	9605	                                                            Homo
+ 14.29	1	1	S	9606	                                                              Homo sapiens
