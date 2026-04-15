@@ -378,16 +378,16 @@ done
 sbatch scripts/assembly.sbatch
 ```
 ### Polishing with RACON 
-- Accedons au dossier de travail
+- Let's access the working file
 ```
 cd /scratch/noe/sugarcane_projet
 ```
-- Accedons au repertoire results puis creons un sous repertoire 5_polishing
+- Let's access the results directory and then create a subdirectory 5_polishing
 ```
 cd /results
 mkdir 5_polishing  
 ```
-- Accedons au sous dossier 5_polishing et creons les sous dossiers input_contigs et Racon_polishing
+- Let's access the 5_polishing subfolder and create the input_contigs and Racon_polishing subfolders.
 ```
 cd /5_polishing
 ```
@@ -395,7 +395,7 @@ cd /5_polishing
 mkdir input_contigs
 mkdir Racon_polishing
 ```
-- Accedons au dossier scrits puis creons un scripts pour le polishing
+- Let's access the scripts folder and then create a script for polishing.
 ```
 cd ../../scripts/
 nano polishing.sbatch
@@ -451,13 +451,13 @@ done
 ```
 sbatch polishing.sbatch
 ```
-# Classification des contigs affinés avec Racon 
+# Classification of refined contigs with Racon
 
-- Creons un nouveau sous repertoire dans le repertoire results 
+- Let's create a new subdirectory within the results directory 
 ```
 mkdir /results/6_kraken_contigs_polishing
 ```
-- Editons un un script pour la classification avec kraken 
+- Let's edit a script for classification with Kraken
 ```
 nano Kraken_Classification_contigs.sbatch
 ```
