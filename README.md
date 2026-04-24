@@ -11,12 +11,12 @@ This README file provides comprehensive information on a practical training cour
 **NOE Jean Marc Kouao (Ph.D WAVE-CI)**
 
 # Supervisor 
-**Prof TIENDREBEOGO Fidèle (WAVE-CI)**
+- **Prof TIENDREBEOGO Fidèle (WAVE-CI)**
 
-**Dr TIBIRI Bionimian Ezechiel (INERA-WAVE, Burkina Faso)**
+- **Dr TIBIRI Bionimian Ezechiel (INERA-WAVE, Burkina Faso)**
 
 ### Tutors: 
-**Dr NAME Pakyendou Estel (INERA-WAVE, Burkina Faso)**
+- **Dr NAME Pakyendou Estel (INERA-WAVE, Burkina Faso)**
 
 ### Objectives 
 
