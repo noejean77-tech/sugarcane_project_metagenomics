@@ -39,4 +39,4 @@ for file in "$CONTIGS_POLISHING"/*_polishing.fasta; do
    kraken2 --db "$DB_KRAKEN" "$fixed_file" --threads $SLURM_CPUS_PER_TASK --report "$OUT_DIR/${names}_kraken_report" --output "$OUT_DIR/${names}_kraken_output"
 done
 
-ktImportTaxonomy -q 2 -t 5 ${OUT_DIR}/*_kraken_report -o ${OUT_DIR}/sugarcane_polishing_krona.htmlktImportTaxonomy -q 2 -t 5 ${OUT_DIR}/*_kraken_report -tax /home/noe/krona_db -o ${OUT_DIR}/combined_samples_krona.html
+ktImportTaxonomy -q 2 -t 5 ${OUT_DIR}/*_kraken_report -o ${OUT_DIR}/sugarcane_polishing_krona.html
