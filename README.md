@@ -12,6 +12,7 @@ This README file provides comprehensive information on a practical training cour
 
 # Supervisor 
 **Prof TIENDREBEOGO Fidèle (WAVE-CI)**
+
 **Dr TIBIRI Bionimian Ezechiel (INERA-WAVE, Burkina Faso)**
 
 ### Tutors: 
