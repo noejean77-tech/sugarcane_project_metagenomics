@@ -8,7 +8,7 @@ This README file provides comprehensive information on a practical training cour
 
 
 ### Student: 
-**NOE Jean Marc Kouao (Ph.D WAVE-CI)**
+- **NOE Jean Marc Kouao (Ph.D WAVE-CI)**
 
 # Supervisor 
 - **Prof TIENDREBEOGO Fidèle (WAVE-CI)**
@@ -136,9 +136,6 @@ for b in {75..85}; do
 
         cat "barcode${b}/"*.fastq > "merged_fastq/barcode${b}_merged.fastq"
         echo "File barcode${b}_merged.fastq created successfully."
-    else
-        echo "Attention : the directory barcode${b} is not found."
-    fi
 done
 ```
 bash merged.sh
@@ -456,7 +453,7 @@ done
 ```
 sbatch polishing.sbatch
 ```
-# Classification of refined contigs with Racon
+### Classification kraken of contigs polishing with Racon
 
 - Let's create a new subdirectory within the results directory 
 ```
@@ -508,11 +505,72 @@ for file in "$CONTIGS_POLISHING"/*_polishing.fasta; do
    kraken2 --db "$DB_KRAKEN" "$fixed_file" --threads $SLURM_CPUS_PER_TASK --report "$OUT_DIR/${names}_kraken_report" --output "$OUT_DIR/${names}_kraken_output"
 done
 
-# Visualizing all samples with Krona
-ktImportTaxonomy -q 2 -t 5 ${OUT_DIR}/*_kraken_report -o ${OUT_DIR}/sugarcane_polishing_krona.htmlktImportTaxonomy -tax /home/noe/krona_db 
-
+ktImportTaxonomy -q 2 -t 5 ${OUT_DIR}/*_kraken_report -o ${OUT_DIR}/sugarcane_polishing_krona.html
 ```
 
 ```
 sbatch scripts/Kraken_Classification_contigs.sbatch
+```
+
+### Taxonomy assignment of polished contigs with DIAMOND BLASTX
+
+- Creons le dossier Diamond 
+```
+mkdir results/8__blast_diamond_uniref90
+```
+- Editons le script DIAMOND 
+```
+nano scritps/ blast_all_microbiome_contigs.sbatch
+```
+```
+#!/bin/bash
+
+### Name of job 
+#SBATCH --job-name=Diamond_blastx
+
+### number of cpus
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=16G
+
+### Set the partition to use
+#SBATCH --partition=normal  
+
+###Specify the node on which the job should run
+#SBATCH --nodelist=node06
+
+### out logs 
+#SBATCH --output=/scratch/noe/sugarcane_projet/logs/Diamond_blastx_%j.out
+#SBATCH --error=/scratch/noe/sugarcane_projet/logs/Diamond_blastx_%j.err
+
+# download of  module BLAST
+module load bioinfo-shared
+module load blast
+module load diamond/2.1.9
+
+# Let's define the varaibles
+
+QUERY_DIR="/scratch/noe/sugarcane_projet/results/6_kraken_contigs_polishing"
+DB="/projects/diamond_databse/uniref90.dmnd"
+OUT_DIR="/scratch/noe/sugarcane_projet/results/8_blast_diamond_uniref90"
+
+mkdir -p "$OUT_DIR"
+
+#  BLAST launch for each sample
+for fasta in "$QUERY_DIR"/*_headers_fixed.fasta; do
+    
+    name=$(basename "$fasta" _headers_fixed.fasta)
+    echo "BLAST analysis for : $name"
+
+     diamond blastx --db "$DB" \
+           --query "$fasta" \
+           --threads $SLURM_CPUS_PER_TASK \
+           --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore stitle \
+           --max-target-seqs 1 \
+           --out "${OUT_DIR}/${name}_blast_diamond_uniref90.tsv"
+
+done
+```
+
+```
+sbatch  blast_all_microbiome_contigs.sbatch
 ```
