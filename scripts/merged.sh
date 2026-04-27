@@ -1,18 +1,15 @@
 #!/bin/bash
 
-# Dossier où seront stockés les fichiers fusionnés
+# Folder where the merged files will be stored
 mkdir -p merged_fastq
 
 for b in {75..85}; do
-    echo "Fusion en cours pour le barcode ${b}..."
+    echo "Barcode merging in progress ${b}..."
 
-    # On vérifie si le dossier du barcode existe pour éviter les erreurs
+    # We check if the barcode file exists to avoid errors
     if [ -d "barcode${b}" ]; then
-        # On fusionne tous les fichiers du dossier dans un seul fichier final
+        # We merge all the files in the folder into a single final file
 
         cat "barcode${b}/"*.fastq > "merged_fastq/barcode${b}_merged.fastq"
-        echo "Fichier barcode${b}_merged.fastq créé avec succès."
-    else
-        echo "Attention : Le dossier barcode${b} est introuvable."
-    fi
+        echo "file barcode${b}_merged.fastq created successfully."
 done
