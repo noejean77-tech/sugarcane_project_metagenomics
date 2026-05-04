@@ -1,0 +1,39 @@
+/data/softs/Miniforge3-25.11.0-0/envs/quast-5.0.2/bin/metaquast.py Barcode75_contigs.fasta Barcode76_contigs.fasta Barcode77_contigs.fasta Barcode78_contigs.fasta Barcode79_contigs.fasta Barcode80_contigs.fasta Barcode81_contigs.fasta Barcode82_contigs.fasta Barcode83_contigs.fasta Barcode84_contigs.fasta Barcode85_contigs.fasta -o metaquast_results
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-5.14.0-611.36.1.el9_7.x86_64-x86_64-with-redhat-9.7-Blue_Onyx (linux_64)
+  Python version: 3.6.15
+  CPUs number: 32
+
+Started: 2026-04-16 10:27:55
+
+Logging to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/metaquast.log
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+Contigs:
+  Pre-processing...
+  1  Barcode75_contigs.fasta ==> Barcode75_contigs
+  2  Barcode76_contigs.fasta ==> Barcode76_contigs
+  3  Barcode77_contigs.fasta ==> Barcode77_contigs
+  4  Barcode78_contigs.fasta ==> Barcode78_contigs
+  5  Barcode79_contigs.fasta ==> Barcode79_contigs
+  6  Barcode80_contigs.fasta ==> Barcode80_contigs
+  7  Barcode81_contigs.fasta ==> Barcode81_contigs
+  8  Barcode82_contigs.fasta ==> Barcode82_contigs
+  9  Barcode83_contigs.fasta ==> Barcode83_contigs
+  10 Barcode84_contigs.fasta ==> Barcode84_contigs
+  11 Barcode85_contigs.fasta ==> Barcode85_contigs
+
+No references are provided, starting to search for reference genomes in SILVA 16S rRNA database and to download them from NCBI...
+
+2026-04-16 10:27:57
+NOTICE: Permission denied accessing /data/softs/Miniforge3-25.11.0-0/envs/quast-5.0.2/lib/python3.6/site-packages/quast_libs/silva. Silva will be downloaded to home directory /home/noe/.quast
+
+Downloading SILVA 16S ribosomal RNA gene database...
+
+ERROR! Failed downloading SILVA 16S rRNA gene database (http://www.arb-silva.de/fileadmin/silva_databases/release_123/Exports/SILVA_123_SSURef_Nr99_tax_silva.fasta.gz)! The search for reference genomes cannot be performed. Try to download it manually, put under /home/noe/.quast/silva/ and restart your command.
+Reference genomes are not found.
+
+NOTICE: No references are provided, starting regular QUAST with MetaGeneMark gene finder

@@ -1,0 +1,113 @@
+/data/softs/Miniforge3-25.11.0-0/envs/quast-5.0.2/bin/quast.py Barcode75_contigs.fasta Barcode76_contigs.fasta Barcode77_contigs.fasta Barcode78_contigs.fasta Barcode79_contigs.fasta Barcode80_contigs.fasta Barcode81_contigs.fasta Barcode82_contigs.fasta Barcode83_contigs.fasta Barcode84_contigs.fasta Barcode85_contigs.fasta -o /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results --labels "Barcode75_contigs, Barcode76_contigs, Barcode77_contigs, Barcode78_contigs, Barcode79_contigs, Barcode80_contigs, Barcode81_contigs, Barcode82_contigs, Barcode83_contigs, Barcode84_contigs, Barcode85_contigs"
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-5.14.0-611.36.1.el9_7.x86_64-x86_64-with-redhat-9.7-Blue_Onyx (linux_64)
+  Python version: 3.6.15
+  CPUs number: 32
+
+Started: 2026-04-16 10:28:07
+
+Logging to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+NOTICE: Maximum number of threads is set to 8 (use --threads option to set it manually)
+
+CWD: /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs
+Main parameters: 
+  MODE: meta, threads: 8, minimum contig length: 500, minimum alignment length: 65, ambiguity: one, \
+  threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  1  Barcode75_contigs.fasta ==> Barcode75_contigs
+  2  Barcode76_contigs.fasta ==> Barcode76_contigs
+  3  Barcode77_contigs.fasta ==> Barcode77_contigs
+  4  Barcode78_contigs.fasta ==> Barcode78_contigs
+  5  Barcode79_contigs.fasta ==> Barcode79_contigs
+  6  Barcode80_contigs.fasta ==> Barcode80_contigs
+  7  Barcode81_contigs.fasta ==> Barcode81_contigs
+  8  Barcode82_contigs.fasta ==> Barcode82_contigs
+  9  Barcode83_contigs.fasta ==> Barcode83_contigs
+  10 Barcode84_contigs.fasta ==> Barcode84_contigs
+  11 Barcode85_contigs.fasta ==> Barcode85_contigs
+
+2026-04-16 10:28:07
+Running Basic statistics processor...
+  Contig files: 
+    1  Barcode75_contigs
+    2  Barcode76_contigs
+    3  Barcode77_contigs
+    4  Barcode78_contigs
+    5  Barcode79_contigs
+    6  Barcode80_contigs
+    7  Barcode81_contigs
+    8  Barcode82_contigs
+    9  Barcode83_contigs
+    10 Barcode84_contigs
+    11 Barcode85_contigs
+  Calculating N50 and L50...
+    1  Barcode75_contigs, N50 = 4324, L50 = 1, Total length = 8523, GC % = 51.12, # N's per 100 kbp =  0.00
+    2  Barcode76_contigs, N50 = 4597, L50 = 2, Total length = 16470, GC % = 47.92, # N's per 100 kbp =  0.00
+    3  Barcode77_contigs, N50 = 4520, L50 = 2, Total length = 21463, GC % = 50.58, # N's per 100 kbp =  0.00
+    4  Barcode78_contigs, N50 = 2708, L50 = 1, Total length = 4816, GC % = 47.26, # N's per 100 kbp =  0.00
+    5  Barcode79_contigs, N50 = 4377, L50 = 7, Total length = 74492, GC % = 43.65, # N's per 100 kbp =  0.00
+    6  Barcode80_contigs, N50 = 831, L50 = 1, Total length = 1519, GC % = 57.14, # N's per 100 kbp =  0.00
+    7  Barcode81_contigs, N50 = 4078, L50 = 43, Total length = 492008, GC % = 55.73, # N's per 100 kbp =  0.00
+    8  Barcode82_contigs, N50 = 6265, L50 = 3, Total length = 40105, GC % = 46.81, # N's per 100 kbp =  0.00
+    9  Barcode83_contigs, N50 = 1721, L50 = 2, Total length = 6178, GC % = 45.94, # N's per 100 kbp =  0.00
+    10 Barcode84_contigs, N50 = 1539, L50 = 2, Total length = 6638, GC % = 50.33, # N's per 100 kbp =  0.00
+    11 Barcode85_contigs, N50 = 1815, L50 = 3, Total length = 13776, GC % = 49.34, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/GC_content_plot.pdf
+  Drawing Barcode75_contigs GC content plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/Barcode75_contigs_GC_content_plot.pdf
+  Drawing Barcode76_contigs GC content plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/Barcode76_contigs_GC_content_plot.pdf
+  Drawing Barcode77_contigs GC content plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/Barcode77_contigs_GC_content_plot.pdf
+  Drawing Barcode78_contigs GC content plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/Barcode78_contigs_GC_content_plot.pdf
+  Drawing Barcode79_contigs GC content plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/Barcode79_contigs_GC_content_plot.pdf
+  Drawing Barcode80_contigs GC content plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/Barcode80_contigs_GC_content_plot.pdf
+  Drawing Barcode81_contigs GC content plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/Barcode81_contigs_GC_content_plot.pdf
+  Drawing Barcode82_contigs GC content plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/Barcode82_contigs_GC_content_plot.pdf
+  Drawing Barcode83_contigs GC content plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/Barcode83_contigs_GC_content_plot.pdf
+  Drawing Barcode84_contigs GC content plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/Barcode84_contigs_GC_content_plot.pdf
+  Drawing Barcode85_contigs GC content plot...
+    saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/basic_stats/Barcode85_contigs_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-04-16 10:28:10
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2026-04-16 10:28:11
+RESULTS:
+  Text versions of total report are saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/report.html
+  PDF version (tables and plots) is saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/report.pdf
+  Icarus (contig browser) is saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/icarus.html
+  Log is saved to /scratch/noe/sugarcane_projet/results/5_polishing/input_contigs/metaquast_results/quast.log
+
+Finished: 2026-04-16 10:28:11
+Elapsed time: 0:00:04.281493
+NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

@@ -1,0 +1,22 @@
+Assembly	Barcode75_contigs	Barcode76_contigs	Barcode77_contigs	Barcode78_contigs	Barcode79_contigs	Barcode80_contigs	Barcode81_contigs	Barcode82_contigs	Barcode83_contigs	Barcode84_contigs	Barcode85_contigs
+# contigs (>= 0 bp)	7	7	8	3	23	2	146	7	5	4	10
+# contigs (>= 1000 bp)	1	5	5	2	21	0	132	7	2	3	5
+# contigs (>= 5000 bp)	0	1	1	0	5	0	26	4	0	0	0
+# contigs (>= 10000 bp)	0	0	0	0	0	0	2	0	0	0	0
+# contigs (>= 25000 bp)	0	0	0	0	0	0	0	0	0	0	0
+# contigs (>= 50000 bp)	0	0	0	0	0	0	0	0	0	0	0
+Total length (>= 0 bp)	8523	16470	21463	4816	74673	1519	492239	40105	6178	6638	13776
+Total length (>= 1000 bp)	4324	15172	19781	4100	73615	0	482788	40105	3877	5842	10229
+Total length (>= 5000 bp)	0	5541	7548	0	29883	0	174466	30425	0	0	0
+Total length (>= 10000 bp)	0	0	0	0	0	0	24815	0	0	0	0
+Total length (>= 25000 bp)	0	0	0	0	0	0	0	0	0	0	0
+Total length (>= 50000 bp)	0	0	0	0	0	0	0	0	0	0	0
+# contigs	7	7	8	3	22	2	145	7	5	4	10
+Largest contig	4324	5541	7548	2708	7022	831	12492	9706	2156	2847	3307
+Total length	8523	16470	21463	4816	74492	1519	492008	40105	6178	6638	13776
+GC (%)	51.12	47.92	50.58	47.26	43.65	57.14	55.73	46.81	45.94	50.33	49.34
+N50	4324	4597	4520	2708	4377	831	4078	6265	1721	1539	1815
+N75	739	1955	2123	1392	2848	688	2907	5427	931	1456	916
+L50	1	2	2	1	7	1	43	3	2	2	3
+L75	4	4	4	2	12	2	78	4	3	3	6
+# N's per 100 kbp	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
